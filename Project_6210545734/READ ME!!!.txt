@@ -1,0 +1,41 @@
+My Gamesystem contained with 3 games:
+
+1: Blackjack
+	The card game of single player versus to bot whoever got 21 points won or point more than the enermy ('A'card can be 11 or 1 points).
+2: NoThanks
+	My real life favorite game!
+	should be 3-5 players
+	Every card in your hand is the plus points, and all coin will used to be decrease the points.
+	The Player with the lowest coins is the winner.
+
+	Begin game:
+		every body got 11 coin (hide to another).
+		deck card contained 33 cards (number 3-35).
+		shuffle and count out 9 cards and set them aside.
+	Turn:
+		untill the card is out.
+		place a  pass token on the active card ( card on the stand ) and playe pass to your left. You may not pass if you have no pass
+		tokens to place on the active card
+		if you want that card, take both card and tokens on top. then draw the new active card.
+	rule:
+		to count the point, if you have [12,13,14] [15] and 10 coins. The total point is 12+15-10 = 17
+
+	example output:
+
+	<No Thank> Deck have more |||||
+	<No Thank> Coin in the middle have 0
+	<Turn> Player number1: PING
+	<Turn> Card on the stand 19
+	Do you want to pick up 19
+	(Y)es or (N)o (C)oin : y
+	coin add == 0
+	PING : [6] [8] [10] [12,13] [19] [33] [35]
+	BOOM : [5] [14] [27] [30]
+	DEEDDEEE : [3] [7] [20,21] [26] [29] [31]
+	Next card
+
+3. RockPaperScissorAI
+	The program contained with a artificail intelligent (probably it not game..)
+	Have to have GM to player with player.
+	you have to input as if you win,lose or draw and the AI, then it will decises what you have to choose in the next turns
+	finally will return all results(win,lose and draw) and percentage of the game.
